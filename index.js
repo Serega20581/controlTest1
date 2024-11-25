@@ -77,7 +77,7 @@ class Book extends PrintEditionItem {
         this.type = 'book';
     }
 }
-const magazine = new Magazine('Time', '1999', 60);
+const magazine = new Magazine('ABOBA', '1999', 60);
 const book = new Book('1980', '1947', 328, 'BIBA BOBA');
 
 console.log(magazine);
